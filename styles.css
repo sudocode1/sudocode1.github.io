@@ -1,0 +1,79 @@
+@font-face { font-family: MonoBold; src: url('fonts/UbuntuMono-Bold.ttf'); } 
+@font-face { font-family: MonoBoldItalic; src: url('fonts/UbuntuMono-BoldItalic.ttf'); } 
+@font-face { font-family: MonoItalic; src: url('fonts/UbuntuMono-Italic.ttf'); } 
+@font-face { font-family: MonoRegular; src: url('fonts/UbuntuMono-Regular.ttf'); } 
+
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,51,191,1) 0%, rgba(0,212,255,1) 100%);
+    transition: 0.5s;
+
+    color: black;
+
+    text-align: center;
+}
+
+p,h1,h2,h3,h4,h5,h6 {
+    font-weight: 200;
+}
+
+.sudo {
+    transition: 0.5s;
+}
+
+.sudo:hover {
+    background-color: black;
+    color:white;
+    font-family: MonoRegular;
+}
+
+.name {
+    font-weight: 200;
+    font-size: 300%;
+    transition: 0.5s;
+}
+
+a {
+    color: inherit;
+    transition: 0.5s;
+}
+
+.name:hover {
+
+    letter-spacing: 1rem !important;
+    transition: letter-spacing 0.5s cubic-bezier(0, .95, .26, 1), font-weight 0.5s cubic-bezier(0, .95, .26, 1);
+    font-weight: 300;
+}
+/* .name {
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 200;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+} */
+
+#s3k3b {
+    padding: 10px;
+    border-radius: 4px;
+    /*background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);*/
+
+    
+}
+
+
+#die0,#die1, #die0 h1, #die1 h1, #die0 h2, #die1 h2, #die0 h3, #die1 h3 {
+    display: inline;
+}
+
+#die0, #die1 {margin-left: 10;}
